@@ -1,0 +1,32 @@
+# -------------------------------
+# UiPath Performer Project .gitignore
+# -------------------------------
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore publish outputs and NuGet package files
+*.nupkg
+publish/
+
+# Ignore auto-generated lock file (do not version control)
+project.lock.json
+
+# Ignore local settings and files containing sensitive data
+local.settings.json
+*.local
+
+# Ignore temporary files and backups
+*.tmp
+*.bak
+*~.xaml
+
+# Ignore logs and log folders
+logs/
+*.log
+
+# Ignore NuGet packages folder (if present)
+packages/
+
+# Ignore user-specific files
+*.user
